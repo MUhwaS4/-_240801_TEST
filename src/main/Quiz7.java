@@ -34,15 +34,16 @@ public class Quiz7 {
 
 }
 
-class Animal {
+abstract class Animal {
+	
+	// 기본 클래스가 아니라 추상 클래스
 	
 	public void sleep() {
 		System.out.println("밤에는 잠을 잡니다.");
 	}
 	
-	public void move() {
-		System.out.println("낮에는 움직입니다.");
-	}
+	public abstract void move();
+	// 마찬가지 추상 메소드
 	
 }
 

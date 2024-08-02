@@ -10,7 +10,8 @@ public class Quiz3 {
 			sum = sum + i;
 			if (sum >= 300) {
 				System.out.println("i: " + i + ", sum: " + sum);
-				return;
+//				return;
+				break;
 			}
 		}
 		
